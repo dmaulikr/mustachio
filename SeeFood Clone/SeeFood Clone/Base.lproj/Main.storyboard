@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vzp-9w-U5R">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SeeFood_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mustache-outline" translatesAutoresizingMaskIntoConstraints="NO" id="OFr-hz-sFu" userLabel="Logo">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="AtO-4b-fWU"/>
+                                    <constraint firstAttribute="height" constant="128" id="w7u-NN-qaI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MUSTACHIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz6-gK-OVt">
+                                <rect key="frame" x="84" y="405" width="210" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.63190579619999998" blue="0.48213786269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bjy-ZW-cfL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zFC-yK-hvL">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="McJ-YX-Egw"/>
+                                    <constraint firstAttribute="width" constant="240" id="oAA-no-KwD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.63190579618121667" blue="0.48213786265842862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OFr-hz-sFu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1pH-75-gnk"/>
+                            <constraint firstItem="zFC-yK-hvL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4DC-JK-TxK"/>
+                            <constraint firstItem="OFr-hz-sFu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4ry-fG-U0C"/>
+                            <constraint firstAttribute="trailing" secondItem="bjy-ZW-cfL" secondAttribute="trailing" id="EjJ-Iy-sTR"/>
+                            <constraint firstItem="bjy-ZW-cfL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FkM-zQ-9bv"/>
+                            <constraint firstItem="zFC-yK-hvL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PCh-pj-ZN3"/>
+                            <constraint firstItem="bjy-ZW-cfL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VUt-5G-fpi"/>
+                            <constraint firstItem="OFr-hz-sFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W2O-XX-zoQ"/>
+                            <constraint firstItem="OFr-hz-sFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="laY-U7-RcL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bjy-ZW-cfL" secondAttribute="bottom" id="uyf-pG-sQt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BMd-2j-BTu">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="RRg-0l-696">
+                            <color key="tintColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cameraTapped:" destination="BYZ-38-t0r" id="f69-PA-Fp0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="RRg-0l-696" id="FYC-SF-NpX"/>
+                        <outlet property="imageView" destination="bjy-ZW-cfL" id="Unl-5y-Wzr"/>
+                        <outlet property="shareButton" destination="bjy-ZW-cfL" id="MvX-aU-qQE"/>
+                        <outlet property="topBarImageView" destination="zFC-yK-hvL" id="TI5-hs-DgP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IsR-P1-sZc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vzp-9w-U5R" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="bgi-i3-UgT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" red="0.96681708590000004" green="0.96367423600000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RV5-bj-CfW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ikM-4q-swz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="776.76161919040487"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mustache-outline" width="450" height="128"/>
+    </resources>
+</document>
