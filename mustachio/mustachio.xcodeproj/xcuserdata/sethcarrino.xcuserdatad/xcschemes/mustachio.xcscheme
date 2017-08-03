@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20C59DD41F32123A00CB26F7"
-               BuildableName = "SeeFood Clone.app"
-               BlueprintName = "SeeFood Clone"
-               ReferencedContainer = "container:SeeFood Clone.xcodeproj">
+               BuildableName = "mustachio.app"
+               BlueprintName = "mustachio"
+               ReferencedContainer = "container:mustachio.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C59DD41F32123A00CB26F7"
-            BuildableName = "SeeFood Clone.app"
-            BlueprintName = "SeeFood Clone"
-            ReferencedContainer = "container:SeeFood Clone.xcodeproj">
+            BuildableName = "mustachio.app"
+            BlueprintName = "mustachio"
+            ReferencedContainer = "container:mustachio.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -45,7 +45,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
+      launchStyle = "1"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C59DD41F32123A00CB26F7"
-            BuildableName = "SeeFood Clone.app"
-            BlueprintName = "SeeFood Clone"
-            ReferencedContainer = "container:SeeFood Clone.xcodeproj">
+            BuildableName = "mustachio.app"
+            BlueprintName = "mustachio"
+            ReferencedContainer = "container:mustachio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C59DD41F32123A00CB26F7"
-            BuildableName = "SeeFood Clone.app"
-            BlueprintName = "SeeFood Clone"
-            ReferencedContainer = "container:SeeFood Clone.xcodeproj">
+            BuildableName = "mustachio.app"
+            BlueprintName = "mustachio"
+            ReferencedContainer = "container:mustachio.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

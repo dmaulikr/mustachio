@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SeeFood Clone
+//  mustachio
 //
 //  Created by Seth Carrino on 8/2/17.
 //  Copyright © 2017 Seth Carrino. All rights reserved.

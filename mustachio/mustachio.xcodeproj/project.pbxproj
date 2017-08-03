@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20C59DD91F32123A00CB26F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C59DD81F32123A00CB26F7 /* AppDelegate.swift */; };
-		20C59DDB1F32123A00CB26F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C59DDA1F32123A00CB26F7 /* ViewController.swift */; };
-		20C59DDE1F32123A00CB26F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C59DDC1F32123A00CB26F7 /* Main.storyboard */; };
-		20C59DE01F32123A00CB26F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C59DDF1F32123A00CB26F7 /* Assets.xcassets */; };
-		20C59DE31F32123A00CB26F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C59DE11F32123A00CB26F7 /* LaunchScreen.storyboard */; };
+		2036AA3F1F33AF5C00ADCDC4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2036AA3E1F33AF5C00ADCDC4 /* Info.plist */; };
+		205B5CCE1F33ACDB001B2810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205B5CCC1F33ACDB001B2810 /* Main.storyboard */; };
+		205B5CD11F33ACFC001B2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205B5CCF1F33ACFC001B2810 /* LaunchScreen.storyboard */; };
+		2095E8D41F33AFD500CEAF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095E8D31F33AFD500CEAF8B /* AppDelegate.swift */; };
 		20C59DED1F3212B500CB26F7 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEA1F3212B500CB26F7 /* RestKit.framework */; };
 		20C59DEE1F3212B500CB26F7 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEA1F3212B500CB26F7 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20C59DEF1F3212B500CB26F7 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEB1F3212B500CB26F7 /* SVProgressHUD.framework */; };
 		20C59DF01F3212B500CB26F7 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEB1F3212B500CB26F7 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20C59DF11F3212B500CB26F7 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEC1F3212B500CB26F7 /* VisualRecognitionV3.framework */; };
 		20C59DF21F3212B500CB26F7 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20C59DEC1F3212B500CB26F7 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		20D8B2331F33AA1800D0AC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8B2321F33AA1800D0AC4E /* ViewController.swift */; };
+		20D8B2371F33AAA200D0AC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D8B2361F33AAA200D0AC4E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,16 +38,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20C59DD51F32123A00CB26F7 /* SeeFood Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeeFood Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C59DD81F32123A00CB26F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20C59DDA1F32123A00CB26F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20C59DDD1F32123A00CB26F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20C59DDF1F32123A00CB26F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20C59DE21F32123A00CB26F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20C59DE41F32123A00CB26F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2036AA3E1F33AF5C00ADCDC4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mustachio/Info.plist; sourceTree = SOURCE_ROOT; };
+		205B5CCD1F33ACDB001B2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = mustachio/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		205B5CD01F33ACFC001B2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = mustachio/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		2095E8D31F33AFD500CEAF8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = mustachio/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		20C59DD51F32123A00CB26F7 /* mustachio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mustachio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C59DEA1F3212B500CB26F7 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
 		20C59DEB1F3212B500CB26F7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
 		20C59DEC1F3212B500CB26F7 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		20D8B2321F33AA1800D0AC4E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = mustachio/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		20D8B2361F33AAA200D0AC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = mustachio/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +70,7 @@
 				20C59DEA1F3212B500CB26F7 /* RestKit.framework */,
 				20C59DEB1F3212B500CB26F7 /* SVProgressHUD.framework */,
 				20C59DEC1F3212B500CB26F7 /* VisualRecognitionV3.framework */,
-				20C59DD71F32123A00CB26F7 /* SeeFood Clone */,
+				20C59DD71F32123A00CB26F7 /* mustachio */,
 				20C59DD61F32123A00CB26F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,30 +78,31 @@
 		20C59DD61F32123A00CB26F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C59DD51F32123A00CB26F7 /* SeeFood Clone.app */,
+				20C59DD51F32123A00CB26F7 /* mustachio.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20C59DD71F32123A00CB26F7 /* SeeFood Clone */ = {
+		20C59DD71F32123A00CB26F7 /* mustachio */ = {
 			isa = PBXGroup;
 			children = (
-				20C59DD81F32123A00CB26F7 /* AppDelegate.swift */,
-				20C59DDA1F32123A00CB26F7 /* ViewController.swift */,
-				20C59DDC1F32123A00CB26F7 /* Main.storyboard */,
-				20C59DDF1F32123A00CB26F7 /* Assets.xcassets */,
-				20C59DE11F32123A00CB26F7 /* LaunchScreen.storyboard */,
-				20C59DE41F32123A00CB26F7 /* Info.plist */,
+				2095E8D31F33AFD500CEAF8B /* AppDelegate.swift */,
+				20D8B2321F33AA1800D0AC4E /* ViewController.swift */,
+				20D8B2361F33AAA200D0AC4E /* Assets.xcassets */,
+				205B5CCC1F33ACDB001B2810 /* Main.storyboard */,
+				205B5CCF1F33ACFC001B2810 /* LaunchScreen.storyboard */,
+				2036AA3E1F33AF5C00ADCDC4 /* Info.plist */,
 			);
+			name = mustachio;
 			path = "SeeFood Clone";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20C59DD41F32123A00CB26F7 /* SeeFood Clone */ = {
+		20C59DD41F32123A00CB26F7 /* mustachio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C59DE71F32123A00CB26F7 /* Build configuration list for PBXNativeTarget "SeeFood Clone" */;
+			buildConfigurationList = 20C59DE71F32123A00CB26F7 /* Build configuration list for PBXNativeTarget "mustachio" */;
 			buildPhases = (
 				20C59DD11F32123A00CB26F7 /* Sources */,
 				20C59DD21F32123A00CB26F7 /* Frameworks */,
@@ -111,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = "SeeFood Clone";
+			name = mustachio;
 			productName = "SeeFood Clone";
-			productReference = 20C59DD51F32123A00CB26F7 /* SeeFood Clone.app */;
+			productReference = 20C59DD51F32123A00CB26F7 /* mustachio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20C59DD01F32123A00CB26F7 /* Build configuration list for PBXProject "SeeFood Clone" */;
+			buildConfigurationList = 20C59DD01F32123A00CB26F7 /* Build configuration list for PBXProject "mustachio" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -146,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20C59DD41F32123A00CB26F7 /* SeeFood Clone */,
+				20C59DD41F32123A00CB26F7 /* mustachio */,
 			);
 		};
 /* End PBXProject section */
@@ -156,9 +158,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C59DE31F32123A00CB26F7 /* LaunchScreen.storyboard in Resources */,
-				20C59DE01F32123A00CB26F7 /* Assets.xcassets in Resources */,
-				20C59DDE1F32123A00CB26F7 /* Main.storyboard in Resources */,
+				2036AA3F1F33AF5C00ADCDC4 /* Info.plist in Resources */,
+				205B5CD11F33ACFC001B2810 /* LaunchScreen.storyboard in Resources */,
+				20D8B2371F33AAA200D0AC4E /* Assets.xcassets in Resources */,
+				205B5CCE1F33ACDB001B2810 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,26 +172,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C59DDB1F32123A00CB26F7 /* ViewController.swift in Sources */,
-				20C59DD91F32123A00CB26F7 /* AppDelegate.swift in Sources */,
+				2095E8D41F33AFD500CEAF8B /* AppDelegate.swift in Sources */,
+				20D8B2331F33AA1800D0AC4E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		20C59DDC1F32123A00CB26F7 /* Main.storyboard */ = {
+		205B5CCC1F33ACDB001B2810 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20C59DDD1F32123A00CB26F7 /* Base */,
+				205B5CCD1F33ACDB001B2810 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		20C59DE11F32123A00CB26F7 /* LaunchScreen.storyboard */ = {
+		205B5CCF1F33ACFC001B2810 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20C59DE21F32123A00CB26F7 /* Base */,
+				205B5CD01F33ACFC001B2810 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -299,7 +302,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "SeeFood Clone/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = mustachio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethcarrino.Mustachio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -316,7 +321,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "SeeFood Clone/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = mustachio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethcarrino.Mustachio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -326,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C59DD01F32123A00CB26F7 /* Build configuration list for PBXProject "SeeFood Clone" */ = {
+		20C59DD01F32123A00CB26F7 /* Build configuration list for PBXProject "mustachio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C59DE51F32123A00CB26F7 /* Debug */,
@@ -335,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C59DE71F32123A00CB26F7 /* Build configuration list for PBXNativeTarget "SeeFood Clone" */ = {
+		20C59DE71F32123A00CB26F7 /* Build configuration list for PBXNativeTarget "mustachio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C59DE81F32123A00CB26F7 /* Debug */,
