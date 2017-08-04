@@ -79,7 +79,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                         self.navigationItem.title = "Perfect Mustachio!"
                         self.navigationController?.navigationBar.barTintColor = UIColor.green
                         self.navigationController?.navigationBar.isTranslucent = false
-                        self.topBarImageView.image = UIImage(named: "heart")
+                        self.topBarImageView.image = UIImage(named: "blank")
                     }
                     
                 }

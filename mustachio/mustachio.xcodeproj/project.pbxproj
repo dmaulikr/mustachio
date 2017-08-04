@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2036AA3F1F33AF5C00ADCDC4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2036AA3E1F33AF5C00ADCDC4 /* Info.plist */; };
 		205B5CCE1F33ACDB001B2810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205B5CCC1F33ACDB001B2810 /* Main.storyboard */; };
 		205B5CD11F33ACFC001B2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205B5CCF1F33ACFC001B2810 /* LaunchScreen.storyboard */; };
 		2095E8D41F33AFD500CEAF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095E8D31F33AFD500CEAF8B /* AppDelegate.swift */; };
@@ -158,7 +157,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2036AA3F1F33AF5C00ADCDC4 /* Info.plist in Resources */,
 				205B5CD11F33ACFC001B2810 /* LaunchScreen.storyboard in Resources */,
 				20D8B2371F33AAA200D0AC4E /* Assets.xcassets in Resources */,
 				205B5CCE1F33ACDB001B2810 /* Main.storyboard in Resources */,
@@ -222,6 +220,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -272,6 +271,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -295,19 +295,19 @@
 		20C59DE81F32123A00CB26F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P23S72J3QQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "SeeFood Clone/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = mustachio/Info.plist;
+				INFOPLIST_FILE = mustachio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethcarrino.Mustachio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				test = "";
 			};
 			name = Debug;
 		};
@@ -320,13 +320,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "SeeFood Clone/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = mustachio/Info.plist;
+				INFOPLIST_FILE = mustachio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sethcarrino.Mustachio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				test = "";
 			};
 			name = Release;
 		};
