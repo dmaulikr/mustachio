@@ -12,7 +12,7 @@ I used the neural network of IBM’s Watson/Bluemix to bring the power of it’s
 
 ## Screenshots
 
-![](header.png)
+![](screenshot1.png)
 
 
 
